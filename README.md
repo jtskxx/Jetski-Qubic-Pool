@@ -30,7 +30,7 @@ For instance: "ACCOUNTNAME-WORKERNAME"
 To copy for importing to clipboard:
 ⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬
 
-        {"name":"JETSKI-POOL-QUBIC","isFavorite":false,"items":[{"coin":"QUBIC","pool_ssl":false,"wal_id":9572663,"dpool_ssl":false,"miner":"custom","miner_alt":"qubminer-jetski-pool","miner_config":{"url":"https://mine.qubic.li/","miner":"qubminer-jetski-pool","template":"ACCOUNTNAME-WORKERNAME","install_url":"https://dl.qubic.li/downloads/qubminer-latest.tar.gz"},"pool_geo":[]}]}
+        {"name":"JETSKI-POOL-QUBIC","isFavorite":false,"items":[{"coin":"QUBIC","pool_ssl":false,"wal_id":9572663,"dpool_ssl":false,"miner":"custom","miner_alt":"qubminer","miner_config":{"url":"https://mine.qubic.li/","miner":"qubminer-jetski-pool","template":"ACCOUNTNAME-WORKERNAME","install_url":"https://dl.qubic.li/downloads/qubminer-latest.tar.gz"},"pool_geo":[]}]}
 
 ⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫
 
@@ -43,16 +43,18 @@ nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
 
 🏖️CPU mining:🏖️
 
-"cpuOnly":"yes"
-"amountOfThreads":32
+FOR EPOCH 107 on 7950x:
+
+"cpuOnly":"yes" 
+"amountOfThreads":24
+"hugePages": 14400
 "accessToken":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI4ZjI0MmYyLWMzOWUtNGQwNS1hNGQ0LWRkYmQ0MWY3MDdiZSIsIk1pbmluZyI6IiIsIm5iZiI6MTcxMjEwMTE3NiwiZXhwIjoxNzQzNjM3MTc2LCJpYXQiOjE3MTIxMDExNzYsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.bhEke8PsrZw0-Ys5YnJEzhaxDv2uJ4ucbdE2UX_2PAcETDZJAkm9XiVo1ONoahTPlG3rOdlpR6zSnBYwuP-yJw"
-"trainer": {"cpu":true,"cpuVersion": "GENERIC"}
 
 ⚡GPU+CPU (Dual) mining:⚡
 
 nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
 "accessToken":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI4ZjI0MmYyLWMzOWUtNGQwNS1hNGQ0LWRkYmQ0MWY3MDdiZSIsIk1pbmluZyI6IiIsIm5iZiI6MTcxMjEwMTE3NiwiZXhwIjoxNzQzNjM3MTc2LCJpYXQiOjE3MTIxMDExNzYsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.bhEke8PsrZw0-Ys5YnJEzhaxDv2uJ4ucbdE2UX_2PAcETDZJAkm9XiVo1ONoahTPlG3rOdlpR6zSnBYwuP-yJw"
-"amountOfThreads":32
+"amountOfThreads":24
 "trainer": {"cpuVersion": "GENERIC"}
 
 ----------------
