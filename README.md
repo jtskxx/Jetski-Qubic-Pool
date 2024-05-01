@@ -30,7 +30,7 @@ For instance: "ACCOUNTNAME-WORKERNAME"
 To copy for importing to clipboard:
 ⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬⏬
 
-        {"name":"JETSKI-POOL-QUBIC","isFavorite":false,"items":[{"coin":"QUBIC","pool_ssl":false,"wal_id":9572663,"dpool_ssl":false,"miner":"custom","miner_alt":"qubminer","miner_config":{"url":"https://mine.qubic.li/","miner":"qubminer-jetski-pool","template":"ACCOUNTNAME-WORKERNAME","install_url":"https://dl.qubic.li/downloads/qubminer-latest.tar.gz"},"pool_geo":[]}]}
+        {"name":"JETSKI-POOL-QUBIC","isFavorite":false,"items":[{"coin":"QUBIC","pool_ssl":false,"wal_id":9572663,"dpool_ssl":false,"miner":"custom","miner_alt":"qubminer","miner_config":{"url":"https://mine.qubic.li/","miner":"qubminer","template":"ACCOUNTNAME-WORKERNAME","install_url":"https://dl.qubic.li/downloads/qubminer-latest.tar.gz"},"pool_geo":[]}]}
 
 ⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫⏫
 
