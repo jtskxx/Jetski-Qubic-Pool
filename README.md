@@ -8,7 +8,7 @@
 
 ➡️The pool applies a 6% fee to the total rewards earned by the computors. This fee covers the costs of operating our Qubic computer nodes, which are hosted in a data center, as well as management expenses.
 
-➡️This version of the Qli miner comes preconfigured to link up with the pool. You just need to update your alias with your account name and your worker's name.
+➡️This version comes preconfigured to link up with the pool. You just need to update your alias with your account name and your worker's name.
 
 For instance: "ACCOUNTNAME-WORKERNAME"
 
