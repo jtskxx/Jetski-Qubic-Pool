@@ -1,7 +1,7 @@
 🌊Jetski-Qubic-Pool🌊
 ----------------------
-
-This is the main client from Qubic.li, configured to connect to the Jetski Pool Qubic.
+➡️To register for the pool
+➡️https://registration.jetskipool.xyz/ 
 
 ➡️The pool applies a 6% fee to the total rewards earned by the computors. This fee covers the costs of operating our Qubic computer nodes, which are hosted in a data center, as well as management expenses.
 
@@ -10,7 +10,7 @@ This is the main client from Qubic.li, configured to connect to the Jetski Pool 
 For instance: "ACCOUNTNAME-WORKERNAME"
 
 ➡️You can check your rig's stats using the dashboard. Ensure you filter your rigs so that only yours are displayed. 
-➡️https://jetski.grafana.net/public-dashboards/554eb1bf2d224a9eaaf15d4b98b5f4e4?orgId=1&refresh=5m
+➡️https://dashboard.jetskipool.xyz 
 
 
 🤝I've made sure this pool maintains 100% transparency with my miners, which is why everything, including miners, IDs, revenue, etc., is accessible publicly.
