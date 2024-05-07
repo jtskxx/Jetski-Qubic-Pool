@@ -1,7 +1,10 @@
 🌊Jetski-Qubic-Pool🌊
 ----------------------
-➡️To register for the pool
+
+➡️To register to the pool
 ➡️https://registration.jetskipool.xyz/ 
+
+
 
 ➡️The pool applies a 6% fee to the total rewards earned by the computors. This fee covers the costs of operating our Qubic computer nodes, which are hosted in a data center, as well as management expenses.
 
