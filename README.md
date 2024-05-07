@@ -1,7 +1,7 @@
 🌊Jetski-Qubic-Pool🌊
 ----------------------
 
-This is the main client from Qubic.li, designed to connect to the Jetski Pool Qubic. It links up with the backend API and retrieves tasks to execute. 
+This is the main client from Qubic.li, configured to connect to the Jetski Pool Qubic.
 
 ➡️The pool applies a 6% fee to the total rewards earned by the computors. This fee covers the costs of operating our Qubic computer nodes, which are hosted in a data center, as well as management expenses.
 
