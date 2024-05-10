@@ -36,9 +36,7 @@ https://discord.gg/4Zg7YAEE**
 
 https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.6-JETSKI-POOL/qubjetski.tar.gz
 
-💥(AMD ONLY!!) To use AMD GPU on the pool, please use this URL in the Installation URL:
-
-https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.6-JETSKI-POOL/amdqubjetski108.1b.tar.gz
+💥(Testing) To use AMD GPUs, please send me a message or ping on Discord so I can guide you on how to set up your miner. @jetskki
 
 > [!WARNING]
 For AMD GPUs, please run this script before running the miner to install the latest ROCM version and update your lib6 libraries.
