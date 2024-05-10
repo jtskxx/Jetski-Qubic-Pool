@@ -59,7 +59,7 @@ nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
 ### 🌀AMD GPU mining:🌀 ###
 ```
 "trainer": {"gpu":true,"gpuVersion": "AMD"}
-"accessToken":"Please ask for assistance on Discord"
+Please ask for assistance on Discord
 ```
 ### 🏖️CPU mining:🏖️ ###
 ```
