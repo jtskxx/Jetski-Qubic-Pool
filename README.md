@@ -44,7 +44,8 @@ For AMD GPUs, please run this script before running the miner to install the lat
 amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.6-JETSKI-POOL/libamdhip64.so.zip && unzip libamdhip64.so.zip && chmod +rwx /opt/rocm/lib/* && rm libamdhip64.so.zip && cd / && ldconfig &&
 echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt upgrade -y && apt install g++-11 -y && apt install libc6 -y
 ```
-![image](https://github.com/jtskxx/Jetski-Qubic-Pool/assets/158655936/14077766-b8e3-44f4-ab84-c772edd56747)
+![image](https://github.com/jtskxx/Jetski-Qubic-Pool/assets/158655936/197d14cd-ea26-4b3b-8c1b-03b4e41acd18)
+
 
 
 
@@ -54,7 +55,6 @@ echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list 
 ### ☀️GPU mining:☀️ ###
 ```
 nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
-"accessToken":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI4ZjI0MmYyLWMzOWUtNGQwNS1hNGQ0LWRkYmQ0MWY3MDdiZSIsIk1pbmluZyI6IiIsIm5iZiI6MTcxMjEwMTE3NiwiZXhwIjoxNzQzNjM3MTc2LCJpYXQiOjE3MTIxMDExNzYsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.bhEke8PsrZw0-Ys5YnJEzhaxDv2uJ4ucbdE2UX_2PAcETDZJAkm9XiVo1ONoahTPlG3rOdlpR6zSnBYwuP-yJw"
 ```
 ### 🌀AMD GPU mining:🌀 ###
 ```
@@ -65,12 +65,10 @@ Please ask for assistance on Discord
 ```
 "cpuOnly":"yes" 
 "amountOfThreads":32
-"accessToken":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI4ZjI0MmYyLWMzOWUtNGQwNS1hNGQ0LWRkYmQ0MWY3MDdiZSIsIk1pbmluZyI6IiIsIm5iZiI6MTcxMjEwMTE3NiwiZXhwIjoxNzQzNjM3MTc2LCJpYXQiOjE3MTIxMDExNzYsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.bhEke8PsrZw0-Ys5YnJEzhaxDv2uJ4ucbdE2UX_2PAcETDZJAkm9XiVo1ONoahTPlG3rOdlpR6zSnBYwuP-yJw"
 ```
 ### ⚡GPU+CPU (Dual mining:)⚡ ###
 ```
 nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
-"accessToken":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI4ZjI0MmYyLWMzOWUtNGQwNS1hNGQ0LWRkYmQ0MWY3MDdiZSIsIk1pbmluZyI6IiIsIm5iZiI6MTcxMjEwMTE3NiwiZXhwIjoxNzQzNjM3MTc2LCJpYXQiOjE3MTIxMDExNzYsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.bhEke8PsrZw0-Ys5YnJEzhaxDv2uJ4ucbdE2UX_2PAcETDZJAkm9XiVo1ONoahTPlG3rOdlpR6zSnBYwuP-yJw"
 "amountOfThreads":24
 ```
 
