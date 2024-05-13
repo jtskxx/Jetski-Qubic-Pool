@@ -61,15 +61,19 @@ nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
 "trainer": {"gpu":true,"gpuVersion": "AMD"}
 Please ask for assistance on Discord
 ```
-### 🏖️CPU mining:🏖️ ###
+### 🏖️CPU mining:🏖️ ### 
+(For Huge Pages: Numbers of threads x 182)
 ```
 "cpuOnly":"yes" 
 "amountOfThreads":32
+"hugePages":5824
 ```
 ### ⚡GPU+CPU (Dual mining:)⚡ ###
+(For Huge Pages: Numbers of threads x 182)
 ```
 nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
-"amountOfThreads":24
+"amountOfThreads":32
+"hugePages":5824
 ```
 
 
