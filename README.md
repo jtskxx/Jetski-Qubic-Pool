@@ -27,7 +27,7 @@ https://dashboard.jetskipool.xyz
 🌴Feel free to ask me any questions. You can ping me on the Qubic server @jetskki🌴
 
 **➡️Pool Server:
-https://discord.gg/4Zg7YAEE**
+https://discord.gg/HnBJSHm5**
 
 
 # ⛵HIVE OS FS:⛵
