@@ -62,18 +62,18 @@ nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
 Please ask for assistance on Discord
 ```
 ### 🏖️CPU mining:🏖️ ### 
-(For Huge Pages: Numbers of threads x 182)
+(For Huge Pages: Numbers of threads x 364)
 ```
 "cpuOnly":"yes" 
 "amountOfThreads":32
-"hugePages":5824
+"hugePages":11648
 ```
 ### ⚡GPU+CPU (Dual mining:)⚡ ###
-(For Huge Pages: Numbers of threads x 182)
+(For Huge Pages: Numbers of threads x 364)
 ```
 nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
 "amountOfThreads":32
-"hugePages":5824
+"hugePages":11648
 ```
 
 
