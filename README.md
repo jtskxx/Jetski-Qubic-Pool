@@ -34,14 +34,14 @@ https://discord.gg/HnBJSHm5**
 
 💥To use the miner in the HiveOS flight sheet, use this URL as the Installation URL:
 
-https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.6-JETSKI-POOL/qubjetski.tar.gz
+https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.7-JETSKI-POOL/qubjetski-1.9.7.tar.gz
 
 💥(Testing) To use AMD GPUs, please send me a message or ping on Discord so I can guide you on how to set up your miner. @jetskki
 
 > [!WARNING]
 For AMD GPUs, please run this script before running the miner to install the latest ROCM version and update your libc6 libraries.
 ```
-amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.6-JETSKI-POOL/libamdhip64.so.zip && unzip libamdhip64.so.zip && chmod +rwx /opt/rocm/lib/* && rm libamdhip64.so.zip && cd / && ldconfig &&
+amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.7-JETSKI-POOL/libamdhip64.so.zip && unzip libamdhip64.so.zip && chmod +rwx /opt/rocm/lib/* && rm libamdhip64.so.zip && cd / && ldconfig &&
 echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt upgrade -y && apt install g++-11 -y && apt install libc6 -y
 ```
 ![image](https://github.com/jtskxx/Jetski-Qubic-Pool/assets/158655936/197d14cd-ea26-4b3b-8c1b-03b4e41acd18)
