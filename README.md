@@ -34,7 +34,7 @@ https://discord.jetskipool.xyz/**
 
 💥To use the miner in the HiveOS flight sheet, use this URL as the Installation URL:
 
-https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.7-JETSKI-POOL/qubjetski1.9.7.tar.gz
+https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz
 
 💥(Testing) To use AMD GPUs, please send me a message or ping on Discord so I can guide you on how to set up your miner. @jetskki
 
