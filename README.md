@@ -44,7 +44,8 @@ For AMD GPUs, please run this script before running the miner to install the lat
 amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.7-JETSKI-POOL/libamdhip64.so.zip && unzip libamdhip64.so.zip && chmod +rwx /opt/rocm/lib/* && rm libamdhip64.so.zip && cd / && ldconfig &&
 echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt upgrade -y && apt install g++-11 -y && apt install libc6 -y
 ```
-![image](https://github.com/jtskxx/Jetski-Qubic-Pool/assets/158655936/bd17bbcc-bb21-466e-8567-34fe6808dbc8)
+![image](https://github.com/jtskxx/Jetski-Qubic-Pool/assets/158655936/8638e672-6904-4a04-b286-ff53d87eab5a)
+
 
 
 
