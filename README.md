@@ -55,18 +55,16 @@ echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list 
 
 ### ☀️GPU mining:☀️ ###
 ```
-AutoUpdate
 nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
 OR EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 ### 🌀AMD GPU mining:🌀 ###
 ```
-AutoUpdate
+LEAVE EMPTY OR USE DUAL MINING CONFIG
 ```
 ### 🏖️CPU mining:🏖️ ### 
 (For Huge Pages: Numbers of threads x 364)
 ```
-AutoUpdate
 "cpuOnly":"yes" 
 "amountOfThreads":32
 "hugePages":11648
@@ -74,7 +72,6 @@ AutoUpdate
 ### ⚡GPU+CPU (Dual mining:)⚡ ###
 (For Huge Pages: Numbers of threads x 364)
 ```
-AutoUpdate
 nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000 OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":32
 "hugePages":11648
