@@ -35,7 +35,7 @@ https://discord.jetskipool.xyz/**
 
 https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz
 
-💥(Testing) To use AMD GPUs, please send me a message or ping on Discord so I can guide you on how to set up your miner. @jetskki
+💥To use AMD GPUs, please send me a message or ping on Discord so I can guide you on how to set up your miner. @jetskki
 
 > [!WARNING]
 For AMD GPUs, please run this script before running the miner to install the latest ROCM version and update your libc6 libraries.
