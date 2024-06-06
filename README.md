@@ -44,6 +44,8 @@ amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https:/
 echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt upgrade -y && apt install g++-11 -y && apt install libc6 -y
 ```
 ![image](https://github.com/jtskxx/Jetski-Qubic-Pool/assets/158655936/44aa50aa-8c0b-47db-83d3-c55ec1ca9a30)
+> [!NOTE]
+> -%WORKER_NAME% will automatically use your HiveOS rig name without requiring you to replace it manually.
 
 
 
