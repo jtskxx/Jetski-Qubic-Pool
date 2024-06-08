@@ -60,11 +60,12 @@ echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list 
 ### ☀️GPU mining:☀️ ###
 ```
 nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
-OR EMPTY TO USE HIVEOS DASHBOARD OC
+OR
+EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 ### 🌀AMD GPU mining:🌀 ###
 ```
-LEAVE EMPTY OR USE DUAL MINING CONFIG
+LEAVE EMPTY
 ```
 ### 🏖️CPU mining:🏖️ ### 
 (For Huge Pages: Numbers of threads x 210)
