@@ -68,18 +68,18 @@ EMPTY TO USE HIVEOS DASHBOARD OC
 LEAVE EMPTY
 ```
 ### 🏖️CPU mining:🏖️ ### 
-(For Huge Pages: Numbers of threads x 210)
+(For Huge Pages: Numbers of threads x 241)
 ```
 "cpuOnly":"yes" 
 "amountOfThreads":32
-"hugePages":6720
+"hugePages":7712
 ```
 ### ⚡GPU+CPU (Dual mining:)⚡ ###
-(For Huge Pages: Numbers of threads x 210)
+(For Huge Pages: Numbers of threads x 241)
 ```
 nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000 OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":32
-"hugePages":6720
+"hugePages":7712
 ```
 
 
