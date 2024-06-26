@@ -102,6 +102,8 @@ nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000 OR
 ➡️***4000Series:***
 
 	nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000
+# Happy Mining!
+![image](https://github.com/jtskxx/Jetski-Qubic-Pool/assets/158655936/dd2e712c-50b4-4b5a-a5a9-5b05e9d7c64f)
 
 
 🫶 A big thank you to Joetom for his work! Below is the original repository from Qubic.li. 🫶
