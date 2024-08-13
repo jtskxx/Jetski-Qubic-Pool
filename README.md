@@ -1,13 +1,10 @@
 # 🌊Jetski-Qubic-Pool🌊
 
 
-- **➡️To register to the pool:**
-
-https://registration.jetskipool.xyz/ 
 
 - **➡️Pool Dashboard. Ensure you filter your rigs so that only yours are displayed:**
 
-https://dashboard.jetskipool.xyz 
+https://qubic.jetskipool.xyz/
 
 
 
@@ -36,12 +33,6 @@ https://discord.jetskipool.xyz/**
 https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz
 
 
-> [!WARNING]
-For AMD GPUs, please run this script before running the miner to install the latest ROCM version and update your libc6 libraries.
-```
-amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.7-JETSKI-POOL/libamdhip64.so.zip && unzip libamdhip64.so.zip && chmod +rwx /opt/rocm/lib/* && rm libamdhip64.so.zip && cd / && ldconfig &&
-echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt upgrade -y && apt install g++-11 -y && apt install libc6 -y
-```
 ![image](https://github.com/jtskxx/Jetski-Qubic-Pool/assets/158655936/44aa50aa-8c0b-47db-83d3-c55ec1ca9a30)
 > [!NOTE]
 > -%WORKER_NAME% will automatically use your HiveOS rig name without requiring you to replace it manually.
@@ -63,6 +54,12 @@ OR
 EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 ### 🌀AMD GPU mining:🌀 ###
+> [!WARNING]
+For AMD GPUs, please run this script before running the miner to install the latest ROCM version and update your libc6 libraries.
+```
+amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.7-JETSKI-POOL/libamdhip64.so.zip && unzip libamdhip64.so.zip && chmod +rwx /opt/rocm/lib/* && rm libamdhip64.so.zip && cd / && ldconfig &&
+echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt upgrade -y && apt install g++-11 -y && apt install libc6 -y
+```
 ```
 "trainer": {"gpuVersion": "AMD"}
 ```
