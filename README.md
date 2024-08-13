@@ -1,36 +1,38 @@
 # 🌊Jetski-Qubic-Pool🌊
 
+<div align="center">
+<h3> <picture> <img src = "https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F983705077590130719.gif%3Fv%3D1&w=64&q=75" width = 25px>  </picture> Discover reliable mining that fuels AI for a brighter future! <img src = "https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F983705077590130719.gif%3Fv%3D1&w=64&q=75" width = 25px
+	<!--horizontal divider(gradiant)-->
+	
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+	<img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
+</div>
 
 
-- **➡️Pool Dashboard. Ensure you filter your rigs so that only yours are displayed:**
+### <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Statistics.gif?raw=true" width = 30px>  </picture> Pool Dashboard:
 
-https://qubic.jetskipool.xyz/
+### ➡️ https://qubic.jetskipool.xyz/
 
+### <a target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" height="30" width="40" /></a> Discord Server:
 
+### ➡️ https://discord.jetskipool.ai/
 
 
 > [!NOTE]
-> Miners are available preconfigured to link up with the pool. You just need to update your alias with your account name and your worker's name.
+> Miners are available preconfigured to link up with the pool. You just need to update your alias with your Worker Name and your Wallet Address.
+
 
 > [!IMPORTANT]
-> **For instance: "ACCOUNTNAME-WORKERNAME"**
-
-🤝I've made sure this pool maintains 100% transparency with my miners, which is why everything, including miners, IDs, revenue, etc.., is accessible publicly.🤝
-
+> **For instance: "%WAL%.%WORKER_NAME%"**
 
 ⚠️Ensure each of your workers has a unique worker name; duplicating worker names is not permitted.⚠️
 
-🌴Feel free to ask me any questions. You can ping me on the Qubic server @jetskki🌴
 
-**➡️Pool Server:
-https://discord.jetskipool.xyz/**
+# 🌴HIVE OS FS:🌴
 
+### **💥Installation URL:**
 
-# ⛵HIVE OS FS:⛵
-
-💥To use the miner in the HiveOS flight sheet, use this URL as the Installation URL:
-
-https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz
+### ➡️ https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz
 
 
 ![image](https://github.com/jtskxx/Jetski-Qubic-Pool/assets/158655936/44aa50aa-8c0b-47db-83d3-c55ec1ca9a30)
@@ -45,7 +47,7 @@ https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-l
 
 
 
-## Extra Config Arguments:
+##  <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;<i><b>Extra Config Arguments:</b></i></p>
 
 ### ☀️GPU mining:☀️ ###
 ```
