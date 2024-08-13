@@ -21,10 +21,6 @@
 > [!NOTE]
 > Miners are available preconfigured to link up with the pool. You just need to update your alias with your Worker Name and your Wallet Address.
 
-
-> [!IMPORTANT]
-> **For instance: "%WAL%.%WORKER_NAME%"**
-
 ⚠️Ensure each of your workers has a unique worker name; duplicating worker names is not permitted.⚠️
 
 
@@ -34,9 +30,14 @@
 
 ### ➡️ https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz
 
+![image](https://github.com/user-attachments/assets/ca0c3dfa-57d1-4df0-b38f-3f1ecbb0a454)
 
-![image](https://github.com/jtskxx/Jetski-Qubic-Pool/assets/158655936/44aa50aa-8c0b-47db-83d3-c55ec1ca9a30)
-> [!NOTE]
+
+> [!IMPORTANT]
+> **For instance: "%WAL%.%WORKER_NAME%"**
+>
+> -%WAL% will use the Qubic wallet address that you configured in your HiveOS account.
+>
 > -%WORKER_NAME% will automatically use your HiveOS rig name without requiring you to replace it manually.
 
 
@@ -47,7 +48,7 @@
 
 
 
-##  <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;<i><b>Extra Config Arguments:</b></i></p>
+##  <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;<b>Extra Config Arguments:</b></p>
 
 ### ☀️GPU mining:☀️ ###
 ```
@@ -84,29 +85,27 @@ nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000 OR
 ## Recommended GPU overclocks:
 
 ### Medium:
----
-➡️***3000 Series:***
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+***3000 Series:***
 
 	nvtool --setcoreoffset 250 --setclocks 1500 --setmem 5001
-➡️***4000 Series:***
+***4000 Series:***
 
 	nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001
 
 ### High:
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-➡️***3000 Series:***
+***3000 Series:***
 
 	nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
-➡️***4000Series:***
+***4000 Series:***
 
 	nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000
 # Happy Mining!
-![image](https://github.com/jtskxx/Jetski-Qubic-Pool/assets/158655936/dd2e712c-50b4-4b5a-a5a9-5b05e9d7c64f)
+<p align = "center">
+	<img src = "https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
+</p>
 
-
-🫶 A big thank you to Joetom for his work! Below is the original repository from Qubic.li. 🫶
-
-https://github.com/qubic-li
-
-
+<div align="center">
