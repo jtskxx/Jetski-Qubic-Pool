@@ -11,7 +11,7 @@
 
 ### <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Statistics.gif?raw=true" width = 30px>  </picture> Pool Dashboard:
 
-### ➡️ https://qubic.jetskipool.xyz/
+### ➡️ https://qubic.jetskipool.ai/
 
 ### <a target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" height="30" width="40" /></a> Discord Server:
 
@@ -19,7 +19,7 @@
 
 
 > [!NOTE]
-> Miners are available preconfigured to link up with the pool. You just need to update your alias with your Worker Name and your Wallet Address.
+> Miners are preconfigured to connect with the pool. You just need to update your alias with your Worker Name and Wallet Address, separated by a dash (-).
 
 ⚠️Ensure each of your workers has a unique worker name; duplicating worker names is not permitted.⚠️
 
@@ -34,7 +34,7 @@
 
 
 > [!IMPORTANT]
-> **For instance: "%WAL%.%WORKER_NAME%"**
+> **For instance: "%WAL%-%WORKER_NAME%"**
 >
 > -%WAL% will use the Qubic wallet address that you configured in your HiveOS account.
 >
@@ -52,19 +52,19 @@
 
 ### ☀️GPU mining:☀️ ###
 ```
-nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
+nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001
 OR
 EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 ### 🌀AMD GPU mining:🌀 ###
+```
+"trainer": {"gpuVersion": "AMD"}
+```
 > [!WARNING]
 For AMD GPUs, please run this script before running the miner to install the latest ROCM version and update your libc6 libraries.
 ```
 amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.7-JETSKI-POOL/libamdhip64.so.zip && unzip libamdhip64.so.zip && chmod +rwx /opt/rocm/lib/* && rm libamdhip64.so.zip && cd / && ldconfig &&
 echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt upgrade -y && apt install g++-11 -y && apt install libc6 -y
-```
-```
-"trainer": {"gpuVersion": "AMD"}
 ```
 ### 🏖️CPU mining:🏖️ ### 
 (For Huge Pages: Numbers of threads x 241)
@@ -76,7 +76,7 @@ echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list 
 ### ⚡GPU+CPU (Dual mining:)⚡ ###
 (For Huge Pages: Numbers of threads x 241)
 ```
-nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000 OR EMPTY FOR HIVEOS DASHBOARD OC
+nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001 OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":32
 "hugePages":7712
 ```
@@ -84,7 +84,7 @@ nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000 OR
 
 ## Recommended GPU overclocks:
 
-### Medium:
+### 🪢Medium:
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ***3000 Series:***
@@ -94,7 +94,7 @@ nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000 OR
 
 	nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001
 
-### High:
+### 🪢High:
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ***3000 Series:***
@@ -103,9 +103,4 @@ nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000 OR
 ***4000 Series:***
 
 	nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000
-# Happy Mining!
-<p align = "center">
-	<img src = "https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
-</p>
-
-<div align="center">
+### Happy Mining!❤️‍🔥
