@@ -1,4 +1,4 @@
-# 🌊Jetski-Qubic-Pool🌊
+# 🌊Jetski Qubic Pool🌊
 
 <div align="center">
 <h3> <picture> <img src = "https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F983705077590130719.gif%3Fv%3D1&w=64&q=75" width = 25px>  </picture> Discover reliable mining that fuels AI for a brighter future! <img src = "https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F983705077590130719.gif%3Fv%3D1&w=64&q=75" width = 25px
