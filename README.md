@@ -19,7 +19,7 @@
 
 
 > [!NOTE]
-> Miners are preconfigured to connect with the pool. You just need to update your alias with your Worker Name and Wallet Address, separated by a dash (-).
+> Miners are preconfigured to connect with the pool. You just need to update your alias with your Wallet Address and Worker Name, separated by a dash (-).
 
 ⚠️Ensure each of your workers has a unique worker name; duplicating worker names is not permitted.⚠️
 
