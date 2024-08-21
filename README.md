@@ -36,7 +36,7 @@
 > [!IMPORTANT]
 > **For instance: "%WAL%-%WORKER_NAME%"**
 >
-> -%WAL% will use the Qubic wallet address that you configured in your HiveOS account.
+> %WAL%- will use the Qubic wallet address that you configured in your HiveOS account.
 >
 > -%WORKER_NAME% will automatically use your HiveOS rig name without requiring you to replace it manually.
 
