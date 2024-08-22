@@ -67,18 +67,18 @@ amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https:/
 echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt upgrade -y && apt install g++-11 -y && apt install libc6 -y
 ```
 ### 🏖️CPU mining:🏖️ ### 
-(For Huge Pages: Numbers of threads x 241)
+(For Huge Pages: Numbers of threads x 138)
 ```
 "cpuOnly":"yes" 
 "amountOfThreads":32
-"hugePages":7712
+"hugePages":4416
 ```
 ### ⚡GPU+CPU (Dual mining:)⚡ ###
-(For Huge Pages: Numbers of threads x 241)
+(For Huge Pages: Numbers of threads x 138)
 ```
 nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001 OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":32
-"hugePages":7712
+"hugePages":4416
 ```
 
 
