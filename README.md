@@ -30,7 +30,7 @@ nvidia-driver-update
 
 
 > [!IMPORTANT]
-> Ensure each of your workers has a unique worker name; duplicating worker names is not permitted.
+> Ensure each of your workers has a **unique worker name**; duplicating worker names is not permitted.
 
 
 ## ✈️ Flight Sheet Configuration
@@ -97,7 +97,7 @@ nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001 OR EMPTY FOR HIVEOS DA
 ## 🧪 Advanced Settings:
 ### Idle Time Feature
 > [!NOTE]
-> Starting September 4th, Qubic will introduce idle time every 677 ticks after 676 ticks of mining. During this idle period, you can configure your miner to run any application. The client will handle opening and closing the app. Below is a simple example for any program and miner.
+> Starting September 4th, Qubic will introduce **idle time** every 677 ticks after 676 ticks of mining. During this idle period, you can configure your miner to run any application. The client will handle opening and closing the app. Below is a simple example for any program and miner.
 
 **Extra Config Arguments Example for CPU:**
 ```json
