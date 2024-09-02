@@ -1,7 +1,7 @@
 # 🌊JETSKI QUBIC POOL🌊
 
 <div align="center">
-<h3> <picture> <img src = "https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F983705077590130719.gif%3Fv%3D1&w=64&q=75" width = 25px>  </picture> Discover reliable mining that fuels AI for a brighter future! <img src = "https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F983705077590130719.gif%3Fv%3D1&w=64&q=75" width = 25px
+<h3> <picture> <img src = "https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F983705077590130719.gif%3Fv%3D1&w=64&q=75" width = 25px>  </picture> Join us to achieve true AI power powered by useful miners! <img src = "https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F983705077590130719.gif%3Fv%3D1&w=64&q=75" width = 25px
 	<!--horizontal divider(gradiant)-->
 	
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -9,24 +9,31 @@
 </div>
 
 
-### <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Statistics.gif?raw=true" width = 30px>  </picture> Pool Dashboard:
-
-### ➡️ https://qubic.jetskipool.ai/
-
-### <a target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" height="30" width="40" /></a> Discord Server:
-
-### ➡️ https://discord.jetskipool.ai/
+### <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Statistics.gif?raw=true" width = 30px>  </picture> Pool Dashboard: https://qubic.jetskipool.ai/
 
 
+
+### <a target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" height="30" width="40" /></a> Discord Server: https://discord.jetskipool.ai/
+
+<br/>
+
+
+
+### **⚙️ NVIDIA GPU Requirements:**
 > [!NOTE]
-> Miners are preconfigured to connect with the pool. You just need to update your alias with your Wallet Address and Worker Name, separated by a dash (-).
+> To update your NVIDIA GPU driver on HiveOS, please run the following command:
+```sh
+nvidia-driver-update
+```
+- **NVIDIA 3000 Series:** Driver version **535+** or newer.
+- **NVIDIA 4000 Series:** Driver version **550+**.
 
-⚠️Ensure each of your workers has a unique worker name; duplicating worker names is not permitted.⚠️
+
+> [!IMPORTANT]
+> Ensure each of your workers has a unique worker name; duplicating worker names is not permitted.
 
 
-# 🌴HIVE OS FS:🌴
-
-### **💥Installation URL:**
+## ✈️ Flight Sheet Configuration
 
 ### ➡️ https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/latest/qubjetski-latest.tar.gz
 
@@ -40,21 +47,13 @@
 >
 > -%WORKER_NAME% will automatically use your HiveOS rig name without requiring you to replace it manually.
 
-
-
-
-
-
-
-
+<br>
 
 ##  <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;<b>Extra Config Arguments:</b></p>
 
 ### ☀️GPU mining:☀️ ###
 ```
-nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001
-OR
-EMPTY TO USE HIVEOS DASHBOARD OC
+nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001 OR EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 
 <!--
@@ -71,40 +70,40 @@ echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list 
 -->
 
 ### 🏖️CPU mining:🏖️ ### 
-(For Huge Pages: Numbers of threads x 138)
+```(Huge Pages: Amount of threads*128)```
 ```
 "cpuOnly":"yes"
 "amountOfThreads":32
-"hugePages":4416
+"hugePages":4096
 ```
-### ⚡GPU+CPU (Dual mining:)⚡ ###
-(For Huge Pages: Numbers of threads x 138)
+### ⚡GPU+CPU (Dual mining)⚡ ###
 ```
 nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001 OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":32
-"hugePages":4416
+"hugePages":4096
 ```
 
+## 💦Recommended GPU overclocks💦
 
-## Recommended GPU overclocks:
+**Medium:**  
+3000 series ```nvtool --setcoreoffset 250 --setclocks 1500 --setmem 5001```  
+4000 series ```nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001```  
+**High:**  
+3000 series ```nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000```  
+4000 series ```nvtool --setcoreoffset 200 --setclocks 2700 --setmem 7000 --setmemoffset 2000```  
 
-### 🪢Medium:
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<br>
 
-***3000 Series:***
+## 🧪 Advanced Settings:
+### Idle Time Feature
+> [!NOTE]
+> Starting September 4th, Qubic will introduce idle time every 677 ticks after 676 ticks of mining. During this idle period, you can configure your miner to run any application. The client will handle opening and closing the app. Below is a simple example for any program and miner.
 
-	nvtool --setcoreoffset 250 --setclocks 1500 --setmem 5001
-***4000 Series:***
-
-	nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001
-
-### 🪢High:
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-***3000 Series:***
-
-	nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
-***4000 Series:***
-
-	nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000
-### Happy Mining!❤️‍🔥
+**Extra Config Arguments Example for CPU:**
+```json
+"idleSettings":{"command":"ping","arguments":"google.com"}
+```
+**Extra Config Arguments Example for GPU:**
+```json
+"idleSettings":{"gpuOnly":true,"command":"ping","arguments":"google.com"}
+```
