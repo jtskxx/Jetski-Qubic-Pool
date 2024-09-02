@@ -73,7 +73,7 @@ echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list 
 ### 🏖️CPU mining:🏖️ ### 
 (For Huge Pages: Numbers of threads x 138)
 ```
-"cpuOnly":"yes" 
+"cpuOnly":"yes"
 "amountOfThreads":32
 "hugePages":4416
 ```
