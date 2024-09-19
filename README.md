@@ -71,17 +71,14 @@ echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list 
 -->
 
 ### 🏖️CPU mining:🏖️ ### 
-```(Huge Pages: Amount of threads*128)```
 ```
 "cpuOnly":"yes"
 "amountOfThreads":32
-"hugePages":4096
 ```
 ### ⚡GPU+CPU (Dual mining)⚡ ###
 ```
 nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001 OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":32
-"hugePages":4096
 ```
 
 ## 💦Recommended GPU overclocks💦
