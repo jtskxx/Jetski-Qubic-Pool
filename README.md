@@ -54,7 +54,7 @@ nvidia-driver-update
 
 ### ☀️GPU mining:☀️ ###
 ```
-nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001 OR EMPTY TO USE HIVEOS DASHBOARD OC
+nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 
 <!--
@@ -77,7 +77,7 @@ echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list 
 ```
 ### ⚡GPU+CPU (Dual mining)⚡ ###
 ```
-nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001 OR EMPTY FOR HIVEOS DASHBOARD OC
+nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":32
 ```
 
