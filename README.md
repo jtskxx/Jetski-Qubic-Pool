@@ -83,8 +83,8 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 
 ## 💦Recommended GPU overclocks💦
 
-3000 series ```nvtool --setcoreoffset 200 --setclocks 1600 --setmem 5001 --setmemoffset 2100```  
-4000 series ```nvtool --setcoreoffset 200 --setclocks 2650 --setmem 7001 --setmemoffset 2300``` 
+3000 series ```nvtool --setcoreoffset 200 --setclocks 1600 --setmem 5001 --setmemoffset 2000```  
+4000 series ```nvtool --setcoreoffset 200 --setclocks 2600 --setmem 7001 --setmemoffset 2000``` 
 
 <br>
 
