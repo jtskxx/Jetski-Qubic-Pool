@@ -80,7 +80,7 @@ GPU:8
 "idleSettings":{"gpuOnly":true,"command":"ping","arguments":"google.com"}
 ```
 > [!NOTE]
->AMD Miner is still under heavy development and is currently powered by ZLUDA. It is recommended to set up a watchdog to LA>=30. Please check the dedicated AMD section on the Discord to see the ongoing development.
+>AMD Miner is still under heavy development and is currently powered by ZLUDA. It is recommended to set up a watchdog to LA>=20. Please check the dedicated AMD section on the Discord to see the ongoing development.
 > 
 > Download your preferred AMD miner from the release section :) 
 
