@@ -57,14 +57,6 @@ nvidia-driver-update
 nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 
-### 🌀AMD GPU mining:🌀 ###
-> [!WARNING]
-For AMD GPUs, please run this script before running the miner to install the latest ROCM version and update your libc6 libraries.
-```
-amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.7-JETSKI-POOL/libamdhip64.so.zip && unzip libamdhip64.so.zip && chmod +rwx /opt/rocm/lib/* && rm libamdhip64.so.zip && cd / && ldconfig && echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt upgrade -y
-```
-
-
 ### 🏖️CPU mining:🏖️ ### 
 ```
 "cpuOnly":"yes"
@@ -75,6 +67,20 @@ amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https:/
 nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 "amountOfThreads":32
 ```
+
+### 🌀AMD GPU mining:🌀 ###
+> [!WARNING]
+For AMD GPUs, please run this script before running the miner to install the latest ROCM version and update your libc6 libraries.
+```
+amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && apt install unzip && wget https://github.com/jtskxx/Jetski-Qubic-Pool/releases/download/1.9.7-JETSKI-POOL/libamdhip64.so.zip && unzip libamdhip64.so.zip && chmod +rwx /opt/rocm/lib/* && rm libamdhip64.so.zip && cd / && ldconfig && echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt upgrade -y
+```
+### Extra Config Arguments:
+```
+GPU:8
+"idleSettings":{"gpuOnly":true,"command":"ping","arguments":"google.com"}
+```
+> [!NOTE]
+>AMD Miner is still under heavy development and is currently powered by ZLUDA. It is recommended to set up a watchdog to LA>=30. Please check the dedicated AMD section on the Discord to see the ongoing development.
 
 ## 💦Recommended GPU overclocks💦
 
