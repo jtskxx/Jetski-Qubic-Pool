@@ -80,7 +80,17 @@ GPU:8
 "idleSettings":{"gpuOnly":true,"command":"ping","arguments":"google.com"}
 ```
 > [!NOTE]
->AMD Miner is still under heavy development and is currently powered by ZLUDA. It is recommended to set up a watchdog to LA>=18. Please check the dedicated AMD section on the Discord to see the ongoing development.
+> AMD Miner is still under heavy development and is currently powered by ZLUDA.
+>
+> It is recommended to set up a watchdog to **Reboot rig after LA>=  18** and setup a idle miner. :spider_web:
+> 
+> The miner should use **1 CPU thread** per working **GPU** to manage the **CUDA -> ROCM translation.**
+> 
+> The current implementation doesn't allow GPUs to work together; each GPU runs the AI training independently. If you're using older GPUs or have low it/s, the PPLNS pool is recommended.
+> 
+> :stopwatch: Each GPU takes about 2 minutes to warm up before starting mining
+> 
+> Please check the dedicated AMD section on the Discord to see the ongoing development.
 > 
 > Download your preferred AMD miner from the release section :) 
 
