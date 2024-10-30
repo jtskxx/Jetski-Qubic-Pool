@@ -100,7 +100,7 @@ GPU:8
 ## 💦Recommended GPU overclocks💦
 
 3000 series ```nvtool --setcoreoffset 200 --setclocks 1600 --setmem 5001 --setmemoffset 2000```  
-4000 series ```nvtool --setcoreoffset 200 --setclocks 2600 --setmem 7001 --setmemoffset 2000``` 
+4000 series ```nvtool --setcoreoffset 200 --setclocks 2400 --setmem 7001 --setmemoffset 2000``` 
 
 <br>
 
