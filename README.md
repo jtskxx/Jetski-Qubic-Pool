@@ -65,7 +65,6 @@ nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 `Huge Pages: (100 x Numbers of threads)`
 ```
 "cpuOnly":"yes"
-"amountOfThreads":0
 "hugePages":xxxx
 ```
 ### ⚡GPU+CPU (Dual mining)⚡ ###
