@@ -58,20 +58,17 @@ nvtool OR EMPTY TO USE HIVEOS DASHBOARD OC
 ```
 
 ### 🏖️CPU mining:🏖️ ###
-> [!NOTE]
-> "amountOfThreads":0 = All available Threads -1
->
-
 `Huge Pages: (100 x Numbers of threads)`
 ```
 "cpuOnly":"yes"
-"hugePages":xxxx
+"amountOfThreads":32
+"hugePages":3200
 ```
 ### ⚡GPU+CPU (Dual mining)⚡ ###
 ```
 nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
-"amountOfThreads":0
-"hugePages":xxxx
+"amountOfThreads":32
+"hugePages":3200
 ```
 
 ### 🌀AMD GPU mining:🌀 ###
@@ -102,27 +99,21 @@ GPU:8
 
 ## 💦Recommended GPU overclocks💦
 
-3000 series ```nvtool --setcoreoffset 200 --setclocks 1500 --setmem 5001 --setmemoffset 2000```  
-4000 series ```nvtool --setcoreoffset 200 --setclocks 2400 --setmem 7001 --setmemoffset 2000``` 
+3000 series ```nvtool --setcoreoffset 200 --setclocks 1500 --setmem 5001```  
+4000 series ```nvtool --setcoreoffset 200 --setclocks 2400 --setmem 7001``` 
 
 <br>
 
 ## 🧪 Advanced Settings:
 ### Idle Time Feature
 > [!NOTE]
-> During the Qubic idling phase, you can run another program or miner.
+> Starting September 4th, Qubic will introduce **idle time** every 677 ticks after 676 ticks of mining. During this idle period, you can configure your miner to run any application. The client will handle opening and closing the app. Below is a simple example for any program and miner.
 
-**Extra Config Arguments Example:**
+**Extra Config Arguments Example for CPU:**
 ```json
-"idleSettings":{"preCommand":"ping","preCommandArguments":"-c 2 google.com","command":"ping","arguments":"google.com","postCommand":"ping","postCommandArguments":"-c 2 google.com"}
+"idleSettings":{"command":"ping","arguments":"google.com"}
 ```
-<br>
-
-|  Setting 		|  Description 	|
-|---	|---	|
-|  command 	|  The command/program to execute.	|
-|  arguments 	|  The arguments that should be passed to the command/program.	|
-|  preCommand 	|  A command/program to start once the idling period begins.	|
-|  preCommandArguments 	|  The arguments that should be passed to the preCommand/program.	|
-|  postCommand 	|  A command/program to start once the idling period stops.	|
-|  postCommandArguments 	|  The arguments that should be passed to the postCommand/program.	|
+**Extra Config Arguments Example for GPU:**
+```json
+"idleSettings":{"gpuOnly":true,"command":"ping","arguments":"google.com"}
+```
