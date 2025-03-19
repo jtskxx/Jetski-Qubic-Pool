@@ -89,7 +89,7 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 <br>
 
 ## 🧪 Advanced Settings
-### Idle Time Feature
+### <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px"> Idle Phase Feature <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3ludjVkdDAwOWF0aHJwbGJnd3RldmF0OHI5OGNwdHl4MzlqZjN4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dHM/ITlBDhuVFZOrsGCUqu/giphy.gif" width="30px">
 > [!NOTE]
 > During the Qubic idling phase, you can run another program or miner.
 > 
