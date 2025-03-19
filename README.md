@@ -99,7 +99,7 @@ nvtool OR EMPTY FOR HIVEOS DASHBOARD OC
 > 
 > More examples are available on the pool Discord
 
-**Extra Config Arguments Example:**
+- **Extra Config Arguments Example:**
 ```json
 "idleSettings":{"command":"/hive/miners/rigel/1.19.4/rigel","arguments":"-a xelishashv2 -o stratum+tcp://fr.xelskipool.xyz:9191 -u XELWLT -w %WORKER_NAME%"}
 ```
