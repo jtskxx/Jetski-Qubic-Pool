@@ -17,7 +17,7 @@
 
 <br/>
 
-## 🏝️ Summary 🏝️
+## <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjh0bW1nb3lpYzMwY2h1bWs2MWt0NWZsdzdiNWRrN3NzNm85MGR3MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sUEkwdECIoepv2Caib/giphy.gif" width = 60px> Summary <img src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjh0bW1nb3lpYzMwY2h1bWs2MWt0NWZsdzdiNWRrN3NzNm85MGR3MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sUEkwdECIoepv2Caib/giphy.gif" width = 60px>
 
 1. ⚙️ [NVIDIA GPU Requirements](#%EF%B8%8F-nvidia-gpu-requirements)  
 2. 🌴 [HiveOS Setup](#%EF%B8%8F-flight-sheet-configuration)  
