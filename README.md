@@ -11,8 +11,8 @@
 ### <a target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" height="30" width="40" /></a> Discord Server <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://discord.jetskipool.ai/
 
 
-### <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Statistics.gif?raw=true" width = 30px>  </picture> SOLO Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://qubic.jetskipool.ai/
-### <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Statistics.gif?raw=true" width = 30px>  </picture> PPLNS Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://pplns.jetskipool.ai/
+### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHhteGhqYThkMjU3YnBpdTF5b2JrZGhvZDBicjdrbno5ZnBhdDBhNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cj87CxfRtrUifF3Ryk/giphy.gif" width = 30px>  </picture> SOLO Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://qubic.jetskipool.ai/
+### <picture> <img src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHhteGhqYThkMjU3YnBpdTF5b2JrZGhvZDBicjdrbno5ZnBhdDBhNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cj87CxfRtrUifF3Ryk/giphy.gif" width = 30px>  </picture> PPLNS Dashboard <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW1ramN2N3lnZXFrajNod2VzcGhmcWM3ZG56YmVhbGx0NDc0ZGFpZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/clOgAGJ5iR1RVx5GUl/giphy.gif" width="18px"> https://pplns.jetskipool.ai/
 
 
 <br/>
