@@ -168,7 +168,7 @@ Go to https://download.jetskipool.ai/ to get the appropriate miner
 <br>
 
 ### **2️⃣ Extract the Miner (For PPLNS)**
-If you're using **PPLNS mining**, extract the .tar.gz file
+If you're using **PPLNS mining**, extract the .zip file
 
 - The **default Windows unzipper or WinRAR** can be used to decompress the file
 - Once extracted, navigate to the folder where the miner is located
